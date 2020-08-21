@@ -9,17 +9,18 @@
 }
 .topnav a {
   float: left;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 #social{
 	color: black;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: indianred;
   color: black;
 }
 
@@ -30,10 +31,12 @@
   margin-top: 5%;
   left : 45%;
   top : 45%;
-  background-color: grey;
-  transform: translate(-50%,50%);
+  background-color: papayawhip;
+  transform: translate(-50%,-50%);
   border-radius: 20%;
   padding: 14px 16px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 4px 10px 0px rgba(240, 128, 128, 10);
 
   
 }
@@ -41,25 +44,30 @@
   float: right;
 }
 body{ 
-	background-color: light-grey; 
+	background-color: white; 
 }
 h1 { 
 	color : dark-grey;
 	text-align: center; 
+  font-family: "Montserrat", sans-serif;
 }
 h2 { 
-	color : purple;
+	color : teal;
 	text-align: center; 
+  font-family: "Montserrat", sans-serif;
 }
 
 p { 
-	color : indigo; 
+	color : dark-grey; 
 	text-align : center;
+  font-family: "Montserrat", sans-serif;
+  padding : 0px 12px;
 }
 .center{
 	display: block;
-  	margin-left: auto;
+  margin-left: auto;
  	margin-right: auto;
+
  	
 }
 .top{
@@ -68,24 +76,34 @@ p {
 }
 .column{
  	float : left;
-  	width: 32%;
-  	margin-bottom: 16px;
-  	padding: 0 8px;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+
 }
 .card{
 	margin-top : 20%;
-	box-shadow: 0 4px 10px 0 rgba(240, 128, 128, 10);
-	background-color: lightsalmon;
+	box-shadow: 5px 4px 10px 5px rgba(240, 128, 128, 10);
+	background-color: peachpuff;
 }
 .container::after, .row::after {
-  	content: "";
+  content: "";
  	clear: both;
  	display: table;
+
 }
 .interest {
-	color : black;
-	font-size: 30px;
-	font-weight:30px;
-	
+	color : dark-grey;
+	font-size: 25px;
+	font-weight:bold;
+  font : poppins;
+
+}
+#subinterest{
+  color : indianred;
+  font-size: 15px;
+  font-weight:bolder;
+  font : poppins;
 
 }
